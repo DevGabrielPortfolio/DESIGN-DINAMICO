@@ -38,7 +38,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     const currentArticleColor = localStorage.getItem('articleColor');
-
     newsArticles.forEach(article => {
         article.style.color = currentArticleColor;
     });
